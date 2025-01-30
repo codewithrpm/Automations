@@ -1,0 +1,38 @@
+Selenium:
+
+1. application commands
+2. conditional commands
+3. browser commands
+4. navigational commands
+5. wait commands
+
+
+Application commands:
+---------------------
+get() - opening the application URL.
+tittle - To capture the tittle of the current webpage.
+current_url - To capture the current URL of the web page.
+page_source - to capture the source code of the page.
+
+Conditional commands:
+---------------------
+is_displayed()
+is_enabled()
+is_selected()
+
+Browser Commands:
+-----------------
+close() - Close single browser window (where driver focused)
+quit() - Close multiple browser windows
+
+Navigational commands:
+---------------------
+back()
+forward()
+refresh()
+
+Wait commands:
+time.sleep()
+implicit wait()
+explicit wait()
+
